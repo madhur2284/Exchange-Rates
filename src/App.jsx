@@ -33,7 +33,7 @@ const App = () => {
   }, [fromValue, exchangeRate]);
 
   return (
-    <div className="h-screen w-full bg-[url(public/pexels-arturoaez225-30268012.jpg)] bg-cover bg-center flex justify-center items-center">
+    <div className="h-screen w-full bg-[url(/pexels-arturoaez225-30268012.jpg)] bg-cover bg-center flex justify-center items-center">
       <div className="bg-white/10 backdrop-blur-xs gap-2 rounded-lg shadow-xl p-6 border border-white/20 h-100 w-150  flex flex-col justify-center items-center">
         <div className="bg-white w-135 h-40 rounded-lg shadow-xl flex flex-col justify-center items-center gap-5 relative">
           <div className="flex justify-between w-135 pl-4 text-slate-500 px-5 relative">
